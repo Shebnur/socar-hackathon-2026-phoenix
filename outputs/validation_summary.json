@@ -1,0 +1,42 @@
+{
+  "leave_one_out": [
+    {
+      "rate": "oil_rate_stbd",
+      "R2": 0.999,
+      "MAPE_%": 2.667,
+      "WAPE_%": 2.203,
+      "RMSE": 41.26
+    },
+    {
+      "rate": "water_rate_stbd",
+      "R2": 0.995,
+      "MAPE_%": 4.273,
+      "WAPE_%": 3.715,
+      "RMSE": 36.589
+    },
+    {
+      "rate": "gas_rate_mscfd",
+      "R2": 0.995,
+      "MAPE_%": 5.927,
+      "WAPE_%": 4.454,
+      "RMSE": 20.888
+    }
+  ],
+  "rehearsal_MAPE_%": {
+    "baseline_last_test": {
+      "gas_rate_mscfd": 11.8,
+      "oil_rate_stbd": 6.73,
+      "water_rate_stbd": 5.25
+    },
+    "v1_frozen": {
+      "gas_rate_mscfd": 7.8,
+      "oil_rate_stbd": 4.44,
+      "water_rate_stbd": 5.47
+    },
+    "v2_recalibrated": {
+      "gas_rate_mscfd": 6.45,
+      "oil_rate_stbd": 3.26,
+      "water_rate_stbd": 4.19
+    }
+  }
+}

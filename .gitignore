@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+runs/
+hf_clean.pkl
+high_freq_data.csv
+.DS_Store
+*.zip
